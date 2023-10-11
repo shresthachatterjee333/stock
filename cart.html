@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./search_box.css">
+</head>
+<body>
+    <nav class="max-w">
+        <div class="nav-div">
+            <div class="logo">
+                <a href="./index.html"><img class=""
+                          src="./gricon.png"
+                          width="50" height="40"><i>TrustShare</i></a>
+              </div>
+
+            <div class="c-search">
+                <i class="material-icons">search</i><input type="search" id="search" placeholder="What are you looking for today?" />
+            </div>
+
+            <div id="thirdBox">
+                <a href="./signup.html"><button id="login-btn">Login/Register</button></a></li>
+                <div id="userAcc" class="dontDisplay">
+                    <img id = "user" src="https://www.shareicon.net/data/2016/05/26/771188_man_512x512.png">
+                    <a href="./cart.html"><i class="material-icons">shopping_cart</i></a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="logOutDropDown" class="noDropDownDisplay">
+        <div class="logout">Log Out</div>
+    </div>
+    <div id="dropDown" class="noDropDownDisplay"></div>
+
+    <div id="container">
+
+        <div id="left_view_cart"></div>
+
+        <div id="right_view_cart">
+            <h3 id="total_amount_headline">Amount Payable now</h3>
+        <h1 id="total_amount"></h1>
+        <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/build/client/images/secure-cart-page.382d7372.svg">
+        <p class="safe"> 100% SAFE AND SECURE</p>
+        <p>By Contnuing, you are agree to <a href='#'>Terms and Conditions</a></p>
+        <button id="pay"><a href="./payment.html" >TO PAY</a></button> 
+    </div>
+        
+
+    </div>
+
+    <div id="footer">
+
+        <!-- Add footer contents here -->
+        <!-- <div>file</div> -->
+
+    </div>
+
+</body>
+
+<script src="./cart.js"></script>
+<script src="./search_box.js"></script>
+<script src="./changeNavbar.js"></script>
+
+</html>
